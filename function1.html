@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fun</title>
+</head>
+<body>
+
+    <script>
+        arr=['jeethu','jee','surya']
+        arr.forEach(val => console.log(val));
+
+        function print(val){
+            console.log(val + '  hai')
+        }
+
+        arr.forEach(print)
+
+        console.log(arr)
+
+        arr.forEach((val,index,arr)=>{
+            arr[index]=val.toUpperCase()
+        })
+
+        console.log(arr)
+    </script>
+    
+</body>
+</html>

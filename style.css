@@ -1,59 +1,39 @@
 html,
 body{
    margin: 0;
-   font-family: 'Poppins', sans-serif;
-   background-color:#1d377d;
+   font-family: 'Apple Chancery', cursive;
+}
+#heading{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color:crimson
+}
+#color{
+    float: right;
+    margin-right: 15px;
 }
 
-#wrapper div,#wrapper h2{
+#wrap{
+    height:90vh;
+    width:100vw;
+    border-top:3px solid #323232;
     display:flex;
+    align-items: center;
     justify-content: center;
-    
 }
 
-h2{
-    color:#5921a8;
-    letter-spacing: 1px;
-}
-input{
-    border-radius: 5px;
-    border: 2px solid black ;
-    margin-top:30px;
-    height:2em;
-    width:250px;
-    padding-left:10px;
-}
-
-input:active{
-    border:none;
-}
-#wrapper{
-    height:500px;
-    width:400px;
-    margin:200px auto;
-    background-color:#1f2029;
-    border-radius:10px;
-    padding:30px;
-}
 
 button{
-    margin-top:20px;
-    background-color:#ffeba7;
-    border-radius: 4px;
-    height: 44px;
-    font-weight: 600;
-    padding: 0 30px;
-    letter-spacing: 1px;
-    border: none;
-    background-color: #ffeba7;
-    color: #102770;
-}
-
-button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(54, 57, 219);
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px 80px;
+    font-size: 30px;
+    letter-spacing: 4px;
     cursor:pointer;
-}
-#result{
-    color:white;
-    margin-top:20px;
-    font-size:32px;
 }
